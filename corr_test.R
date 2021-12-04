@@ -25,3 +25,4 @@ ggsave(file = "rep_summary.pdf", plot = p,width=9,heigh=6)
 #Correlation and Linear Regression Test
 cor_df = df %>%
   group_by(Group,Seed) %>% summarize(R = round(cor.test(Repeats, MGEs)$estimate,3), p = signif(cor.test(Repeats, MGEs)$p.value,4), R_squared = round(summary(lm(Repeats ~ MGEs))$r.squared,3)) %>% as.data.frame()
+write.table(cor_df,"cor_reg_results.txt",row.names = FALSE,sep="\t")
