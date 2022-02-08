@@ -13,5 +13,7 @@ This script will automatically install the dependent packages (ggplot2, ggrepel,
 
 3. Finally, the figure (rep_summary.pdf) and the table of test results (cor_reg_results.txt) will be generated.
 
-4. Citation 
+
+# Citation 
+
 Ishiya, K.; Kosaka, H.; Inaoka, T.; Kimura, K.; Nakashima, N. Comparative Genome Analysis of Three Komagataeibacter Strains Used for Practical Production of Nata-de-Coco. Front Microbiol 2022, 12, doi:10.3389/fmicb.2021.798010.
